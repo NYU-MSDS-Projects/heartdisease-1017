@@ -1,2 +1,3 @@
-# heartdisease-1017
-For Jack and Pedro's 1017 Final Project
+# Current repo structure:
+
+TBD -- should likely split out work that is ours vs work we got
