@@ -1,3 +1,7 @@
 # Current repo structure:
 
-TBD -- should likely split out work that is ours vs work we got
+#### Kaggle:
+- This contains the main dataset and the ADS we are analyzing
+
+#### Original Code:
+- This contains anything we built, from EDA to deep dives into the ADS
