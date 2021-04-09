@@ -12,14 +12,14 @@ def getDfSummary(input_data):
     output_data = input_data.describe()
     output_data = output_data.transpose()
     
+    #get the median of each column as well
+    output_data['median'] = np.median(input_data, axis=0)
+    
     #to get distinct counts, first use the nunique function
     #turn this series into a new data frame and merge it with the one from above
     uniques = input_data.nunique(0)
     ph = uniques.to_frame(name='number_distinct')
     output_data = pd.merge(output_data,ph,left_index=True,right_index=True)
-    
-    #get the median of each column as well
-    output_data['median'] = np.median(df, axis=0)
         
     #using the count total, get the total number of rows and take this difference to get number_nan
     numrows = len(input_data.index)
