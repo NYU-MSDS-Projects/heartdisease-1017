@@ -21,9 +21,6 @@ def getDfSummary(input_data):
     #using the count total, get the total number of rows and take this difference to get number_nan
     numrows = len(input_data.index)
     output_data['number_nan'] = output_data['count'].apply(lambda x: numrows - x) 
-    
-    #drop the count field -- decided against this, I want to keep it
-    #output_data = output_data.drop(['count'], axis=1)
 
     return output_data
 
