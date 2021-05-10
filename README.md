@@ -1,4 +1,9 @@
-# Current repo structure:
+# Responsible Data Science Final Project
+Pedro Galarza and Jack Epstein
+
+This is the repo for our final project for NYU's Responsible Data Science Class. In the project we explore the implementation of and automated decision system (ADS) on Kaggle and evaluate this system for it's fairness and transparency.
+
+## Current repo structure:
 
 #### Kaggle:
 - This contains the main dataset and the ADS we are analyzing
