@@ -12,4 +12,4 @@ This is the repo for our final project for NYU's Responsible Data Science Class.
 - This contains anything we built, from EDA to deep dives into the ADS
 - All .ipynb files are meant to be read using Google Collab notebooks
 
-Final report can be found [here]([url](https://github.com/NYU-MSDS-Projects/heartdisease-1017/blob/main/RDS_1017_FinalWriteUp.pdf)).
+Final report can be found [here]((https://github.com/NYU-MSDS-Projects/heartdisease-1017/blob/main/RDS_1017_FinalWriteUp.pdf).
